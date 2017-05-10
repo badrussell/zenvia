@@ -1,0 +1,21 @@
+{
+    "name": "smolareck/zenvia-api",
+    "description": "Super-simple, Zenvia API",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smolareck\\Zenvia\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/smolareck/zenvia",
+    "authors": [
+        {
+            "name": "Carlos Smolareck",
+            "email": "carlossmolareck@gmail.com"
+        }
+    ]
+}
